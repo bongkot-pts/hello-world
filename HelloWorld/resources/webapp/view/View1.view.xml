@@ -1,9 +1,22 @@
 <mvc:View controllerName="sap.com.pts.HelloWorld.controller.View1" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml"
-	displayBlock="true" xmlns="sap.m">
+	displayBlock="true" xmlns="sap.m" xmlns:l="sap.ui.layout">
 	<App id="idAppControl">
 		<pages>
 			<Page title="{i18n>title}">
-				<content></content>
+				<content>
+					<l:VerticalLayout class="sapUiContentPadding" width="100%">
+						<Label text="ObjectStatus with different value states" design="Bold" wrapping="true" class="sapUiSmallMarginTop"/>
+						<ObjectStatus class="sapUiSmallMarginBottom" text="Unknown" state="None"/>
+						<ObjectStatus class="sapUiSmallMarginBottom" text="Currently closed" icon="sap-icon://message-information" state="Information"/>
+						<ObjectStatus class="sapUiSmallMarginBottom" text="Product Shipped" icon="sap-icon://message-success" state="Success"/>
+						<ObjectStatus class="sapUiSmallMarginBottom" text="Product Missing" icon="sap-icon://message-warning" state="Warning"/>
+						<ObjectStatus class="sapUiSmallMarginBottom" text="Product Damaged" icon="sap-icon://message-error" state="Error"/>
+						<ObjectStatus class="sapUiSmallMarginBottom" text="Product Damaged" state="Error"/>
+						<ObjectStatus class="sapUiSmallMarginBottom" title="Product status" text="Damaged" active="true" state="Error" press="handleStatusPressed"
+							icon="sap-icon://message-error"/>
+						<ObjectStatus class="sapUiSmallMarginBottom" title="Test" active="true" state="Error" icon="sap-icon://message-error"/>
+					</l:VerticalLayout>
+				</content>
 			</Page>
 		</pages>
 	</App>
