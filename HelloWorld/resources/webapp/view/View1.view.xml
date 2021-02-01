@@ -6,6 +6,7 @@
 				<content>
 					<l:VerticalLayout class="sapUiContentPadding" width="100%">
 						<ObjectStatus class="sapUiSmallMarginBottom" text="Edit By Jetsada. 01/02/2021 14:33" state="Error"/>
+						<ObjectStatus class="sapUiSmallMarginBottom" text="Edit By BK. 01/02/2021 14:32" icon="sap-icon://message-error" state="Error"/>
 						<ObjectStatus class="sapUiSmallMarginBottom" text="Edit By Jetsada. 01/02/2021 14:17" icon="sap-icon://message-warning" state="Warning"/>
 						<ObjectStatus class="sapUiSmallMarginBottom" text="Edit By BK. 01/02/2021 13:56" icon="sap-icon://message-success" state="Success"/>
 						<ObjectStatus class="sapUiSmallMarginBottom" text="Edit By BK. 01/02/2021 13:25" icon="sap-icon://message-information" state="Information"/>
