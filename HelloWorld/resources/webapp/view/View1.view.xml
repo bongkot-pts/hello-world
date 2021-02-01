@@ -5,6 +5,7 @@
 			<Page title="{i18n>title}">
 				<content>
 					<l:VerticalLayout class="sapUiContentPadding" width="100%">
+						<ObjectStatus class="sapUiSmallMarginBottom" text="Edit By BK. 01/02/2021 13:25" icon="sap-icon://message-information" state="Information"/>
 						<Label text="ObjectStatus with different value states" design="Bold" wrapping="true" class="sapUiSmallMarginTop"/>
 						<ObjectStatus class="sapUiSmallMarginBottom" text="Unknown" state="None"/>
 						<ObjectStatus class="sapUiSmallMarginBottom" text="Currently closed" icon="sap-icon://message-information" state="Information"/>
