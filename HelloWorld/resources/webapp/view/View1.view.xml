@@ -5,6 +5,7 @@
 			<Page title="{i18n>title}">
 				<content>
 					<l:VerticalLayout class="sapUiContentPadding" width="100%">
+						<ObjectStatus text="Edit By Jetsada. 02/02/2021 15:59 (remote jk-branch)" state="Error"/>
 						<ObjectStatus text="Edit By BK. 02/02/2021 15:34" state="Success"/>
 						<ObjectStatus text="Edit By JK-Branch. 02/02/2021 15:28" state="Information"/>
 						<ObjectStatus text="Edit By BK. 02/02/2021 14:20" state="Information"/>
