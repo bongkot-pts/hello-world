@@ -6,6 +6,7 @@
 				<content>
 					<l:VerticalLayout class="sapUiContentPadding" width="100%">
 						<ObjectStatus text="(jk-branch) - Edit By Jetsada. 03/02/2021 10:10" state="Success"/>
+						<ObjectStatus text="(bk-branch) - Edit By BK. 03/02/2021 10:04" state="Information"/>
 					</l:VerticalLayout>
 				</content>
 			</Page>
